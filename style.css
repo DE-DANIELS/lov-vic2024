@@ -20,7 +20,6 @@ body {
     font-family: var(--font-base);
     line-height: 1.7;
     color: var(--c-body);
-    overflow-x: hidden;
 }
 
 h1,
@@ -94,7 +93,7 @@ img {
 
 .navbar-brand h1 {
     color: var(--c-body);
-    font-family: var(--font-base2);
+    font-family: "Kode Mono", monospace;
 }
 
 /* HERO */
@@ -265,10 +264,37 @@ img {
     background-color: var(--c-body3);
 }
 
-.love-sec1 img,
+/* .love-sec1 img,
 .love-sec2 img,
 .love-sec3 img {
     height: 520px;
+} */
+
+.love-sec1,
+.love-sec2,
+.love-sec3 {
+    height: 520px;
+}
+
+.love-sec1 {
+    background-image: url(./assets/Pics-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.love-sec2 {
+    background-image: url(./assets/Pics-4.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.love-sec3 {
+    background-image: url(./assets/Pics-6.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .love-story p {

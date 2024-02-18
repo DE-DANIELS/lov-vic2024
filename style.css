@@ -20,6 +20,7 @@ body {
     font-family: var(--font-base);
     line-height: 1.7;
     color: var(--c-body);
+    overflow-x: hidden;
 }
 
 h1,
@@ -120,10 +121,10 @@ img {
 #hero h1 {
     color: var(--c-body);
     font-family: var(--font-base2);
-    width: fit-content;
+    width: 400px;
     position: absolute;
     top: -22%;
-    right: 6%;
+    right: -23px;
     z-index: 1;
 }
 
@@ -260,19 +261,14 @@ img {
     border-radius: 50%;
 }
 
-.love-sec1 {
-    background-image: linear-gradient(to bottom, var(--c-body3), var(--c-body));
-    height: 660px;
+.chima {
+    background-color: var(--c-body3);
 }
 
-.love-sec2 {
-    height: 625px;
-    background-image: linear-gradient(to bottom, var(--c-body), var(--c-body3));
-}
-
-.love-sec3 {
-    background-image: linear-gradient(to bottom, var(--c-body3), var(--c-body));
-    height: 685px;
+.love-sec1 img,
+.love-sec2 img,
+.love-sec3 img {
+    height: 520px;
 }
 
 .love-story p {
@@ -373,6 +369,7 @@ footer {
     box-sizing: border-box;
     position: relative;
     border: 4px solid var(--c-herom2);
+    border-radius: 20px 20px 0 0;
 }
 
 .footer-top .bi-dot {

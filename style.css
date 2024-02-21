@@ -241,19 +241,19 @@ img {
     background-color: var(--c-body3);
 }
 
-/* .love-sec1 img,
+.love-sec1 img,
 .love-sec2 img,
 .love-sec3 img {
     height: 520px;
-} */
+}
 
-.love-sec1,
+/* .love-sec1,
 .love-sec2,
 .love-sec3 {
     height: 520px;
-}
+} */
 
-.love-sec1 {
+/* .love-sec1 {
     background-image: url(./assets/Pics-1.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -272,7 +272,7 @@ img {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-}
+} */
 
 .love-story p {
     text-align: justify;
@@ -403,4 +403,9 @@ footer>p {
         width: 400px;
         right: -40px;
     }
+
+    /* 
+    #about img {
+        min-height: 50px;
+    } */
 }

@@ -409,3 +409,12 @@ footer>p {
         min-height: 50px;
     } */
 }
+
+@media screen and (max-width: 600px) {
+
+    .love-sec1 img,
+    .love-sec2 img,
+    .love-sec3 img {
+        height: 450px;
+    }
+}
